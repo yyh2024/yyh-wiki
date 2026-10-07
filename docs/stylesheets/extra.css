@@ -1,6 +1,6 @@
 /* 亮色模式 */
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: #4051b5;        /* 主色调，类似 OI Wiki 的蓝紫色 */
+  --md-primary-fg-color: #330066;        /* 主色调，类似 OI Wiki 的蓝紫色 */
   --md-accent-fg-color: #526cfe;         /* 强调色 */
   --md-default-bg-color: #ffffff;
   --md-default-fg-color: #333333;
@@ -8,7 +8,7 @@
 
 /* 暗色模式 */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #4051b5;
+  --md-primary-fg-color: #330066;
   --md-accent-fg-color: #526cfe;
   --md-default-bg-color: #1a1a2e;        /* 深蓝黑背景 */
   --md-default-fg-color: #e4e7ec;        /* 高对比度文字 */
