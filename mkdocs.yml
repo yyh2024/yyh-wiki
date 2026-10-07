@@ -29,20 +29,11 @@ theme:
     - search.highlight
     - content.code.copy
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: white
-      accent: indigo
-      toggle:
-        icon: material/weather-night
-        name: 切换到暗色模式
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: indigo
-      toggle:
-        icon: material/weather-sunny
-        name: 切换到亮色模式
+    - scheme: default
+      primary: custom      # ← 改成 custom
+      accent: custom
+  extra_css:
+    - stylesheets/extra.css
   icon:
     repo: fontawesome/brands/github
 
