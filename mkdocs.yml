@@ -1,27 +1,21 @@
 # ============================================================
-# YYH 维基 - MkDocs 配置文件
-# 参考 OI Wiki 设计规范定制
+# YYH 维基 - MkDocs 配置文件（最小可用版）
 # ============================================================
 
-# ---------- 项目信息 ----------
 site_name: YYH 维基
-site_description: YYH 的个人知识库，记录学习笔记与技术文档
+site_description: YYH 的个人知识库
 site_author: YYH
 site_url: https://yyh2024.github.io/yyh-wiki/
 
-# ---------- 仓库信息 ----------
 repo_name: yyh2024/yyh-wiki
 repo_url: https://github.com/yyh2024/yyh-wiki
 edit_uri: edit/main/docs/
 
-# ---------- 版权信息 ----------
 copyright: Copyright &copy; 2026 YYH
 
-# ---------- 内容目录 ----------
 docs_dir: docs
 site_dir: site
 
-# ---------- 主题配置 ----------
 theme:
   name: material
   language: zh
@@ -30,41 +24,29 @@ theme:
     - navigation.sections
     - navigation.indexes
     - navigation.top
-    - navigation.instant
     - toc.follow
     - search.suggest
     - search.highlight
     - content.code.copy
-    - content.action.edit
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: custom
-      accent: custom
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: 切换到暗色模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: custom
-      accent: custom
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: 切换到亮色模式
   icon:
     repo: fontawesome/brands/github
-  font:
-    text: Fira Sans
-    code: Fira Code
-  custom_dir: overrides
 
-# ---------- 自定义样式 ----------
-extra_css:
-  - stylesheets/extra.css
-
-# ---------- Markdown 扩展 ----------
 markdown_extensions:
-  # 基础扩展
   - admonition
   - attr_list
   - def_list
@@ -73,27 +55,16 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
-  # PyMdown 扩展
   - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-# ---------- 导航结构 ----------
 nav:
   - 首页: index.md
