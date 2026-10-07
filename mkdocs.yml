@@ -67,4 +67,6 @@ markdown_extensions:
       custom_checkbox: true
 
 nav:
-  - 首页: index.md
+  - 入门:
+    - Start: index.md
+    - 关于本站/我: about.md
