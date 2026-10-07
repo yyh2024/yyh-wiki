@@ -69,4 +69,5 @@ markdown_extensions:
 nav:
   - Start: index.md
   - 入门:
-    - 关于本站/我: about.md
+    - 关于本站: intro/about.md
+    - 个人简介: intro/introdection.md
