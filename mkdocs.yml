@@ -80,3 +80,4 @@ nav:
   - 算法:
     - 关于本章: algorithm/algmain.md
     - MST 最小生成树: algorithm/mst.md
+    - Short Path 最短路: algorithm/shortpath.md
