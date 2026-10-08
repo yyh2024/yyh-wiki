@@ -72,5 +72,5 @@ nav:
     - 关于本站: intro/about.md
     - 个人简介: intro/introdection.md
   - 算法:
-    - 关于本章: algorithm/alg main.md
+    - 关于本章: algorithm/algmain.md
     - MST 最小生成树: algorithm/mst.md
