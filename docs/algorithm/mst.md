@@ -1,6 +1,6 @@
 # 最小生成树
 
-**英文名：** $ Minimum Spanning Tree $ ，$ MST $
+**英文名：** $Minimum Spanning Tree$ ，$MST$
 
 ## 定义
 
