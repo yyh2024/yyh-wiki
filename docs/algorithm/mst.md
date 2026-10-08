@@ -6,8 +6,6 @@
 
 我们定义无向连通图的 **最小生成树** 为边权和最小的生成树．
 
-
-<blockquote>
 <font color='#ffc116'>
 <details>
 <summary > <strong> 注意 </strong></summary>
@@ -19,7 +17,6 @@
   </font>
 </details>
 </font>
-</blockquote>
 
 ---
 
@@ -47,7 +44,6 @@
 
 将最小生成树的边权之和输出，如图不连通，则输出 **orz**
 
-<blockquote>
 <font color='#52c41a'>
 <details>
 <summary > <strong>代码实现</strong></summary>
@@ -111,7 +107,6 @@ int main(){
   
 </details>
 </font>
-</blockquote>
 
 
 ## 例题
@@ -140,7 +135,6 @@ int main(){
 
 堆优化的方式类似 **Dijkstra** 的堆优化
 
-<blockquote>
 <font color='#52c41a'>
 <details>
 <summary > <strong> 部分代码实现 </strong></summary>
@@ -192,7 +186,6 @@ int main(){
   </font>
 </details>
 </font>
-</blockquote>
 
 ## 例题
 
